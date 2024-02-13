@@ -1,0 +1,25 @@
+-- Migration para inserir registros na tabela products
+INSERT INTO product (id, name, price, type, active) VALUES
+    ('727d6944-4272-42cc-904c-6af01f35d96c', 'Lavagem a Seco', 50.00, 'SERVICE', true),
+    ('6fce2e1b-f54b-4416-9b1e-0b083f80efd0', 'Lavação Completa', 100.00, 'SERVICE', true),
+    ('92415a5a-beb6-41c4-82d2-0d8a0d6fa1df', 'Cerveja 300ml', 4.00, 'PRODUCT', true),
+    ('2ed297ec-d0af-4671-9847-dd01183f27fd', 'Pizza 50cm', 115.00, 'PRODUCT', true),
+    ('f54c8f22-12dc-4a52-9231-693f4e29e3f8', 'Café Expresso Aromático', 3.50, 'PRODUCT', true),
+    ('c62f7f5a-f5a7-41d7-b38e-3e27f4bc4a72', 'Mochila de Viagem Resistente', 80.00, 'PRODUCT', true),
+    ('bea01b8c-1a09-4b40-9a01-0f1568db5b54', 'Fone de Ouvido Bluetooth', 60.00, 'PRODUCT', true),
+    ('10cf3e99-39a4-4d48-b1b8-93c73653d3c5', 'Conjunto de Panelas Antiaderentes', 120.00, 'PRODUCT', true),
+    ('674682ab-80e1-4f1b-bf34-3ad3b99652aa', 'Caderno de Anotações Ecológico', 8.00, 'PRODUCT', true),
+    ('9c1d0e6e-65b2-47d0-9e59-5042500ab2f0', 'Carregador Portátil de Alta Capacidade "', 35.00, 'PRODUCT', true),
+    ('b6b43c81-60ab-47da-b7c5-79c7e946a42e', 'Tênis Esportivo Leve', 70.00, 'PRODUCT', true),
+    ('0252914e-f065-4ac4-a417-d0df0478ee81', 'Óculos de Sol Polarizados', 25.00, 'PRODUCT', true),
+    ('20ddc5f4-2a27-4f21-97a7-f6f16d077317', 'Caixa de Ferramentas Completa', 150.00, 'PRODUCT', true),
+    ('fbec07ad-01f8-4f0e-bbb8-8b199d13c907', 'Cerveja Artesanal 500ml', 6.00, 'PRODUCT', true),
+    ('c60e0dfc-4986-4562-9441-694256fbcc02', 'Vinho Tinto Reserva 750ml', 25.00, 'PRODUCT', true),
+    ('e4b4291b-0426-453d-90ab-f9021c6b8d20', 'Cadeira de Praia Reclinável', 40.00, 'PRODUCT', true),
+    ('1d07658f-835f-491b-8d82-9b38d540fb5d', 'Guarda-chuva Resistente ao Vento', 20.00, 'PRODUCT', true),
+    ('8e38dcb0-bacd-476d-83d0-f96d05d5d40b', 'Kit Churrasco Premium', 90.00, 'PRODUCT', true),
+    ('94f1892d-d0d0-4b86-b47f-52fe55aa211d', 'Relógio de Pulso à Prova dÁgua', 50.00, 'PRODUCT', true),
+    ('b9da3257-4b04-4322-b68b-1980b228428a', 'Troca de Óleo', 60.00, 'SERVICE', true),
+    ('5b3d3d61-161a-4ec5-bfd8-f7c87528a04f', 'Alinhamento e Balanceamento', 80.00, 'SERVICE', true),
+    ('9816e0dc-82bc-4e0f-bd57-fb2056b19678', 'Revisão Geral', 150.00, 'SERVICE', true);
+
